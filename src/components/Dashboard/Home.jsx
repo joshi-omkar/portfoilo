@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import img from '../../assets/1.gif'
 
 
@@ -6,7 +7,7 @@ const Home = () => {
   return (
     <div>
         <header className="hero">
-        <img className="hero-img" src="../../assets/1.gif"/>
+        <img className="hero-img" src={img}/>
         <h1 className="hero-heading">Omkar Joshi the <span className="heading-inverted"> web developer</span></h1>
     </header>
 
@@ -21,7 +22,13 @@ const Home = () => {
         <div className="container container-center">
             <h1>Projects</h1>
             <p>I like to showcase my work and thus, you can see my projects hosted online</p>
-            <a className="link link-primary" href="/project.html">See Projects</a>
+            {/* <a className="link link-primary" href="/project.html">See Projects</a> */}
+            <Link
+              className="link link-primary"
+              to={"/projects"}
+            >
+              See Projects
+            </Link>
         </div>
     </section>
 
@@ -29,7 +36,13 @@ const Home = () => {
         <div className="container container-center">
             <h1>Blogs</h1>
             <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
-            <a className="link link-secondary" href="/blogs.html">Read Blogs</a>
+            {/* <a className="link link-secondary" href="/blogs.html">Read Blogs</a> */}
+            <Link
+              className="link link-secondary"
+              to={"/blogs"}
+            >
+              Read Blogs
+            </Link>
         </div>
     </section>
     </div>

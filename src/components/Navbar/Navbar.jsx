@@ -6,14 +6,10 @@ const Navbar = () => {
     <div>
       <nav className="navigation container">
         <div className="nav-brand">
-          {/* <a href="/">Omkar Joshi</a> */}
           <NavLink to={"/"}>Omkar Joshi</NavLink>
         </div>
         <ul className="list-non-bullet nav-pills">
           <li className="list-item-inline">
-            {/* <a className="link" href="/">
-              Home
-            </a> */}
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "link" : isActive ? "link link-active" : "link"
@@ -24,9 +20,6 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="list-item-inline">
-            {/* <a className="link link-active" href="/project.html">
-              Projects
-            </a> */}
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "link" : isActive ? "link link-active" : "link"
@@ -37,9 +30,6 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="list-item-inline">
-            {/* <a className="link" href="/blogs.html">
-              Blogs
-            </a> */}
             <NavLink
               className={({ isActive, isPending }) =>
                 isPending ? "link" : isActive ? "link link-active" : "link"
