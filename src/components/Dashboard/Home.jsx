@@ -13,7 +13,7 @@ const Home = () => {
     <section className="section ow">
         <div className="container container-center">
             <h1>Technologies</h1>
-            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ExpressJs, ReactJS, Web Hosting. I am good in problem solving and I LOVE DEVELOPMENT!! </p>
+            <p>I have a solid foundation in HTML5, CSS3, Git, JavaScript, NodeJS, ExpressJs, ReactJS, and Web Hosting! 💪 In addition to my technical skills, I'm an expert problem-solver 🧐, and I'm absolutely in love with the world of development! ❤️</p>
         </div>
     </section>
 
